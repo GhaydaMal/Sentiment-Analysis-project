@@ -16,7 +16,7 @@ nltk.download('punkt') # splits text into sentences and words.
 nltk.download('wordnet')#database of English words and their semantic relationships
 
 # Load dataset
-data = pd.read_csv("c:\\Users\\ghaid\\Downloads\\archive (9)\\Tweets.csv")
+data = pd.read_csv("c:\\Users\\ghaid\\Downloads\\Tweets.csv")
 
 # Preprocessing
 lemmatizer = WordNetLemmatizer()
